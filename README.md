@@ -1,10 +1,10 @@
 ![Logo](https://www.roomvu.com/_next/image?url=%2Fimages%2Flanding%2Fnew-homepage%2Flogo.svg&w=3840&q=50)
 
-[![Nginx](<img srcset="https://img.icons8.com/?size=2x&amp;id=LhQ8M0RI4YLP&amp;format=png 2x, https://img.icons8.com/?size=1x&amp;id=LhQ8M0RI4YLP&amp;format=png 1x" src="https://img.icons8.com/?size=2x&amp;id=LhQ8M0RI4YLP&amp;format=png 2x" alt="NGINX accelerates content and application delivery improves security icon" style="width:auto;height:auto;" width="80" height="80">)]
-[![CI State](https://github.com/sous-chefs/nginx/workflows/ci/badge.svg)]
-[![OpenCollective](https://opencollective.com/sous-chefs/backers/badge.svg)]
-[![OpenCollective](https://opencollective.com/sous-chefs/sponsors/badge.svg)]
-[![License](https://img.shields.io/badge/License-Apache%202.0-green.svg)]
+[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/5691/badge)](https://bestpractices.coreinfrastructure.org/projects/5691)
+[![Go Report Card](https://goreportcard.com/badge/github.com/kubernetes/ingress-nginx)](https://goreportcard.com/report/github.com/kubernetes/ingress-nginx)
+[![GitHub license](https://img.shields.io/github/license/kubernetes/ingress-nginx.svg)](https://github.com/kubernetes/ingress-nginx/blob/main/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/kubernetes/ingress-nginx.svg)](https://github.com/kubernetes/ingress-nginx/stargazers)
+[![GitHub stars](https://img.shields.io/badge/contributions-welcome-orange.svg)](https://github.com/kubernetes/ingress-nginx/blob/main/CONTRIBUTING.md)
 
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
