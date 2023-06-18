@@ -1,0 +1,20 @@
+# The ingress manifest is define to expose your Laravel 10 application to external clients.
+
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: roomvu-app
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target: /
+spec:
+  rules:
+  - host: roomvu-app.example.com
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: roomvu-app
+            port:
+              name: http

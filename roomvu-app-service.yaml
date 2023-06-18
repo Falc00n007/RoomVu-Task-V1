@@ -1,0 +1,15 @@
+# Services manifest are used with [ load balancing, Port Mapping, External Access ]
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: roomvu-app
+  labels:
+    app: roomvu-app
+spec:
+  ports:
+  - name: http
+    port: 80
+    targetPort: 80
+  selector:
+    app: roomvu-app

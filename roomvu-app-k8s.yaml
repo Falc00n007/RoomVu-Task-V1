@@ -1,0 +1,46 @@
+# This file is created for deployment manifest roomvu-app
+# The deployment manifest defines how many replicas of roomvu Laravel 10
+# application should be running.
+# But let us start with one replica, and if you want, just try to increase
+# this number.
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: roomvu-app
+  labels:
+    app: roomvu-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: roomvu-app
+  template:
+    metadata:
+      labels:
+        app: roomvu-app
+    spec:
+      containers:
+      - name: roomvu-app
+        image: roomvu-app:latest
+        ports:
+        - containerPort: 80
+        env:
+        - name: DB_HOST
+          value: mysql
+        - name: DB_PORT
+          value: "3306"
+        - name: DB_DATABASE
+          value: my_database
+        - name: DB_USERNAME
+          valueFrom:
+            secretKeyRef:
+              name: mysql-secret
+              key: username
+        - name: DB_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: mysql-secret
+              key: password
+
+

@@ -1,0 +1,12 @@
+kind: HorizontalPodAutoscaler
+apiVersion: autoscaling/v1
+metadata:
+  name: roomvu-app-hpa
+spec:
+  scaleTargetRef:
+    apiVersion: app/v1
+    kind: Deployment
+    name: roomvu-app
+  minReplicas: 3
+  maxReplicas: 5
+  targetCPUUtilizationPercentage: 80
