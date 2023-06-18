@@ -60,13 +60,13 @@ My personal infrastructure build requirements has two main k8s simulation tools 
 # Current structure and test project files:
 <pre>
 .
-├── **apache-fpm**
+├── apache-fpm
 │   └── var
 │       └── www
 │           └── html
 ├── composer.json
 ├── Dockerfile
-├── **mysql**
+├── mysql
 │   ├── factories
 │   │   └── UserFactory.php
 │   ├── migrations
@@ -77,13 +77,20 @@ My personal infrastructure build requirements has two main k8s simulation tools 
 │   │   └── 2019_12_14_000001_create_personal_access_tokens_table.php
 │   └── seeders
 │       └── DatabaseSeeder.php
-├── **nginx**
+├── nginx
 │   └── nginx.conf
-├── **readme.md**
-├── **roomvu-deploy-cheat.md**
-└── **roomvu-deployment.yaml**
+├── pvc-mysql.yaml
+├── pv-mysql.yaml
+├── README.md
+├── roomvu-app-hpa.yaml
+├── roomvu-app-ingress.yaml
+├── roomvu-app-k8s.yaml
+├── roomvu-app-service.yaml
+├── roomvu-deploy-cheat.md
+└── secret-mysql.yaml
 
-**10 directories, 13 files**
+10 directories, 19 files
+
 </pre>
 
 # Docker file and Create image:
@@ -388,5 +395,6 @@ call me on +98 939 63 10 462 or mail me  farshidrahimi.ca@gmail.com
 **This is changed and customized and named version 2, Version 2 of this product has the same features and functionality as Version 1, but with improved flexibility for customization thanks to the separation of manifest files.
 
 This change will make it easier for DovOps guys to tailor the product to their specific needs. The development and implementation steps for Version 2 remain the same as in previous versions, leveraging the expertise of DevOps guys.**
+
 
 
