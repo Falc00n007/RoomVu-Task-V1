@@ -1,6 +1,6 @@
 ![Logo](https://www.roomvu.com/_next/image?url=%2Fimages%2Flanding%2Fnew-homepage%2Flogo.svg&w=3840&q=50)
 
-[![Cookbook Version](https://img.shields.io/cookbook/v/nginx.svg)]
+[![Nginx](<img srcset="https://img.icons8.com/?size=2x&amp;id=LhQ8M0RI4YLP&amp;format=png 2x, https://img.icons8.com/?size=1x&amp;id=LhQ8M0RI4YLP&amp;format=png 1x" src="https://img.icons8.com/?size=2x&amp;id=LhQ8M0RI4YLP&amp;format=png 2x" alt="NGINX accelerates content and application delivery improves security icon" style="width:auto;height:auto;" width="80" height="80">)]
 [![CI State](https://github.com/sous-chefs/nginx/workflows/ci/badge.svg)]
 [![OpenCollective](https://opencollective.com/sous-chefs/backers/badge.svg)]
 [![OpenCollective](https://opencollective.com/sous-chefs/sponsors/badge.svg)]
