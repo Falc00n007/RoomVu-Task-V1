@@ -1,6 +1,6 @@
 ![Logo](https://www.roomvu.com/_next/image?url=%2Fimages%2Flanding%2Fnew-homepage%2Flogo.svg&w=3840&q=50)
 
-<p align="center"> <img src="https://labs.mysql.com/common/logos/mysql-logo.svg" width="100"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="200"> <img src="https://www.nginx.com/wp-content/uploads/2020/05/NGINX-product-icon.svg" width="70"> </p>
+<p align="center"> <img src="https://labs.mysql.com/common/logos/mysql-logo.svg" width="100"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="200"><img src="https://www.php.net/images/php8/logo_php8_2.svg" width="10"> <img src="https://www.nginx.com/wp-content/uploads/2020/05/NGINX-product-icon.svg" width="70"> </p>
 
 
 # DevOps Project  sample task for RoomVu.
