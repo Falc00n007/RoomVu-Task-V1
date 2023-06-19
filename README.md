@@ -210,7 +210,7 @@ REPOSITORY                     TAG                 IMAGE ID            CREATED  
 localhost:5000/roomvu-app      latest              7e0aa2d69a15        3 minutes ago         795MB
 </pre>
 
-# Create fresh image and push to Docker Hub registery:
+# freshed image and push to Docker Hub registery:
 
 **The given CLI command performs the following operations:**
 
