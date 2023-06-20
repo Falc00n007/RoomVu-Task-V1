@@ -492,7 +492,7 @@ call me on +98 939 63 10 462 or mail me  farshidrahimi.ca@gmail.com
 **By following these steps, you can manage your Docker image projects in Kubernetes using Ansible, Terraform, or Puppet.**
 
 
-This change will make it easier for DovOps guys to tailor the product to their specific needs. The development and implementation steps for Version 2 remain the same as in previous versions, leveraging the expertise of DevOps guys.**
+This change will make it easier for DovOps guys to tailor the product to their specific needs. The development and implementation steps for Version 2 remain the same as in previous versions, leveraging the expertise of DevOps guys.
 
 > **Warning**
 > **Attention Task Tester:**
