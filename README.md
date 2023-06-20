@@ -469,6 +469,12 @@ Assuming the ingress controller has been properly configured with an Ingress res
 
 I hope this helps! Let me know if you have any further questions.
 
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=git,gitlab,github,githubactions,jenkins,nginx,kubernetes,docker,ansible,gcp,aws,azure,linux,mongodb,mysql,postgres,prometheus,laravel,py,django,flask,rabbitmq,redis," />
+  </a>
+</p>
+
 call me on +98 939 63 10 462 or mail me  farshidrahimi.ca@gmail.com
 
 * **Final and important explanation**
