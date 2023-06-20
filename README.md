@@ -497,3 +497,4 @@ This change will make it easier for DovOps guys to tailor the product to their s
 <span style="color:red">**Warning**</span> **Attention Task Tester:**
 **Local** testing is often different from testing in a real **product environment**. I have tried to explain the details of all the stories involved in this test in every stage. However, due to the nature of many infrastructure cases, there may be a need to manually check and make some changes and versioning to this test, which is usually negotiable to finalize. Please bear with**me**. **Thank you**.
 
+This is <span style="color:red">red</span> text.
