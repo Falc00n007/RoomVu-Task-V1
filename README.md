@@ -477,7 +477,7 @@ I hope this helps! Let me know if you have any further questions.
 
 call me on +98 939 63 10 462 or mail me  farshidrahimi.ca@gmail.com
 
-* **Final and important explanation**
+# **Final and important explanation**
 
 **This is changed and customized and named version 2, Version 2 of this product has the same features and functionality as Version 1, but with improved flexibility for customization thanks to the separation of manifest files.**
 
